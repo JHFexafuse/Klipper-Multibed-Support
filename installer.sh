@@ -12,7 +12,7 @@ echo "📂 Entpacke..."
 rm -rf "$TMP_DIR"
 unzip -q "$TMP_DIR.zip" -d /tmp
 
-cd "$TMP_DIR-main"
+cd "$TMP_DIR/Klipper-Multibed-Support-main"
 chmod +x install.sh
 
 echo "🔧 Starte Patch-Installation..."
