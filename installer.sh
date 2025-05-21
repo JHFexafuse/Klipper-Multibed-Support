@@ -10,7 +10,7 @@ wget -q -O "$TMP_DIR.zip" "$ZIP_URL"
 
 echo "📂 Entpacke..."
 rm -rf "$TMP_DIR"
-unzip -q "$TMP_DIR.zip" -d /tmp
+unzip -o -q "$TMP_DIR.zip" -d "$TMP_DIR"
 
 cd "$TMP_DIR/Klipper-Multibed-Support-main"
 chmod +x install.sh
